@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '919633687665'
+developerName= '𝑘𝑟𝑖𝑠ℎ𝑛𝑎𝑑𝑎𝑠 🎈'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -586,29 +586,29 @@ pemilik = `${owner}@s.whatsapp.net`
 menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
 
-❏「 TIME 」
-${gaya1} *Date* : ${tanggal}
-${gaya1} *Time* : ${time}
+❏「 𝑫𝑨𝑻𝑬 」
+${gaya1} *𝐷𝑎𝑡𝑒* : ${tanggal}
+${gaya1} *𝑇𝑖𝑚𝑒* : ${time}
 
-❏「 INFO BOT 」
-${gaya1} *Speed* : ${latensie.toFixed(4)} Second
-${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Bot Name* : ${botname}
-${gaya1} *Owner Name* : ${ownername}
-${gaya1} *Owner Number* : @${pemilik.split('@')[0]}
-${gaya1} *Host Name :* ${os.hostname()}
-${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} *Autoread* : ${autoread ? "Active" : "Off"}
-${gaya1} *Autotype* : ${autoketik ? "Active" : "Off"}
-${gaya1} *Autovn* : ${autovn ? "Active" : "Off"}
+❏「 𝑰𝑵𝑭𝑶 𝑩𝑶𝑻 」
+${gaya1} *𝑆𝑝𝑒𝑒𝑑* : ${latensie.toFixed(4)} Second
+${gaya1} *𝑅𝑢𝑛𝑡𝑖𝑚𝑒* : ${runtime(process.uptime())}
+${gaya1} *𝐵𝑜𝑡 𝑁𝑎𝑚𝑒* : ${botname}
+${gaya1} *𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒* : ${ownername}
+${gaya1} *𝑂𝑤𝑛𝑒𝑟 𝑁𝑢𝑚𝑏𝑒𝑟* : @${pemilik.split('@')[0]}
+${gaya1} *𝐻𝑜𝑠𝑡 𝑁𝑎𝑚𝑒 :* ${os.hostname()}
+${gaya1} *𝑃𝑙𝑎𝑡𝑓𝑜𝑟𝑚 :* ${os.platform()}
+${gaya1} *𝑊𝐴 𝑉𝑒𝑟𝑠𝑖𝑜𝑛 :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} *𝑀𝑜𝑑𝑒 :* ${self ? "Self" : "Public"}
+${gaya1} *𝐴𝑢𝑡𝑜𝑟𝑒𝑎𝑑* : ${autoread ? "Active" : "Off"}
+${gaya1} *𝐴𝑢𝑡𝑜𝑡𝑦𝑝𝑒* : ${autoketik ? "Active" : "Off"}
+${gaya1} *𝐴𝑢𝑡𝑜𝑣𝑛* : ${autovn ? "Active" : "Off"}
 
-❏「 USER INFO 」
-${gaya1} *Name* : ${pushname}
-${gaya1} *Bio* : ${bio_user}
-${gaya1} *Number* : @${senderr.split('@')[0]}
-${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
+❏「 𝑼𝑺𝑬𝑹 𝑰𝑵𝑭𝑶 」
+${gaya1} *𝑁𝑎𝑚𝑒* : ${pushname}
+${gaya1} *𝐵𝑖𝑜* : ${bio_user}
+${gaya1} *𝑁𝑢𝑚𝑏𝑒𝑟* : @${senderr.split('@')[0]}
+${gaya1} *𝑆𝑡𝑎𝑡𝑢𝑠* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `_Please Select Button Below_
 _If You Are A Mod User_
@@ -1732,7 +1732,7 @@ reply(mess.wait)
 bo = args.join(" ")
 ini = await fetchJson(`https://apikey-bear3.herokuapp.com/api/yt/playmp4?query=${bo}&apikey=${KingOfBearKey}`)
 mp4 = await getBuffer(ini.url)
-DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video🐶` })
+DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video🎈` })
 break
 case 'mp3':
 reply(mess.wait)
@@ -2837,13 +2837,13 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
-+ `ORG: Owner Of Doge Bot ;\n`
++ `ORG: ᴋʀɪᴢ sᴇʀ ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_The above contact is my owner 🎈_`)
 break
 case 'developer':
 
@@ -2854,7 +2854,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: ᴷᴿᴵᶻ ˢᴱᴿ ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*🎈 ʙᴀʟʟᴏᴏɴ ᴠᴇɴᴏ ɴᴇɴᴀᴋ🤤*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: 𝒏𝒐 𝒄𝒉𝒂𝒏𝒏𝒆𝒍\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/KANNANSIR\n\n_𝑫𝑶𝑵'𝑻 𝑪𝑶𝑴𝑬 𝑷𝑴 𝑭𝑶𝑹 𝑨𝑺𝑲𝑰𝑵𝑮 𝑺𝑪🐦._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
@@ -3167,13 +3167,13 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu189 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu000 = `🐶 *NINJA* : ${anu189.result}\n`
+anu189 = `🎈 *NAME* : ${anunname.your_name}\n`
+anu000 = `🎈 *NINJA* : ${anu189.result}\n`
 reply(anu000)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
-reply(`*🐶HERE IS YOUR RANDOM STYLISH NAME🐶*\n\n${anuscn.result}`)
+reply(`*🎈HERE IS YOUR RANDOM STYLISH NAME🎈*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
@@ -4028,13 +4028,13 @@ case 'bc':
              const encmediaboomb = isQuotedImage ? JSON.parse(JSON.stringify(DogeXeonOP).replace('quotedM','m')).message.extendedTextMessage.contextInfo : DogeXeonOP
              bc100 = await DogeXeonOP.downloadMediaMessage(encmediaboomb)
              for (let _ of anu100) {
-             DogeXeonOP.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 Doge Bot Broadcast 」*\n\n${body.slice(4)}`})
+             DogeXeonOP.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 KRIZ SER Broadcast 」*\n\n${body.slice(4)}`})
 }
              reply('Broadcast success')
              } else {
              for (let _ of anu100) {
              DogeXeonOP.sendMessage(_.jid, 
-			{"contentText": `*「 DOGE BOT BROADCASTING MESSAGE 」*\n\n${body.slice(4)}`,
+			{"contentText": `*「 KRIZ SER BROADCASTING MESSAGE 」*\n\n${body.slice(4)}`,
 			"footerText": `${tanggal}`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
@@ -4082,24 +4082,7 @@ sendMess(_.jid, `Bot Broadcast\n\n${body.slice(4)}`)
 reply(`Broadcast Success`)
 }
 break
-case 'bcgc':
 
-if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
-if (args.length < 1) return reply('Where is the text? ?')
-if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-const encmediabcgc = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-bcgc = await DogeXeonOP.downloadMediaMessage(encmediabcgc)
-for (let _ of groupMembers) {
-DogeXeonOP.sendMessage(_.jid, bcgc, image, { caption: `*「 DOGE BOT BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
-}
-reply('')
-} else {
-for (let _ of groupMembers) {
-sendMess(_.jid, `*「 DOGE BOT BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
-}
-reply('Success broadcast group')
-}
-break
 case 'clearall':
 
 if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
@@ -4732,7 +4715,7 @@ break
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🐶 @${mem.jid.split('@')[0]}\n`
+						teks += `🎈 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
