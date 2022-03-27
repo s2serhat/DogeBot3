@@ -2,8 +2,8 @@ let FormData = require('form-data')
 let axios = require('axios') 
  
 let whatmusic = async(M) =>{
-  let q = M.quoted ? M.quoted : m 
-  let mime = (M.quoted ? M.quoted : M.msg).mimetype || '' 
+  let q = mek.quoted ? mek.quoted : m 
+  let mime = (mek.quoted ? mek.quoted : M.msg).mimetype || '' 
   if (!/video|audio/.test(mime))return M.reply(`Balas music yang ingin dicari dengan caption *!whatmusic*`)
   M.reply('Wait Bro....') 				
   const bodyForm = new FormData() 			 
