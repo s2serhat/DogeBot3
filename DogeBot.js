@@ -78,10 +78,10 @@ gaya2 = setting.gaya2
 const fakeimage = fs.readFileSync ('./media/dogepic1.jpg')
 const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
-//══════════[ Developer Number ]══════════//
+//══════════[ 𝐙𝐀𝐋𝐈𝐎𝐎𝐒 ]══════════//
 
-developerNo = '919633687665'
-developerName= '𝑘𝑟𝑖𝑠ℎ𝑛𝑎𝑑𝑎𝑠 🎈'
+developerNo = '447451220190'
+developerName= '𝐳𝐚𝐥𝐢𝐨𝐨𝐬 🎈'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -94,7 +94,7 @@ Lolhumanbykur = apikey.Lolhuman2
 porn1 = apikey.porn1
 lolkey = apikey.lolkey1
 
-//══════════[ Sticker WM ]══════════//
+//══════════[ 𝐙𝐀𝐋𝐈𝐎𝐎𝐒 WM ]══════════//
 
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -102,7 +102,7 @@ lolkey = apikey.lolkey1
 const Exif = require('./lib/exif')
 const exif = new Exif()
 
-//══════════[ Data Base ]══════════//
+//══════════[ 𝐙𝐀𝐋𝐈𝐎𝐎𝐒 Base ]══════════//
 
 const _antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
 const _antivirtex = JSON.parse(fs.readFileSync('./database/antivirtex.json'))
@@ -112,7 +112,7 @@ const setik = JSON.parse(fs.readFileSync('./database/setik.json'))
 const vien = JSON.parse(fs.readFileSync('./database/vien.json'))
 const imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
 
-//══════════[ TIME ]══════════//
+//══════════[ 𝐙𝐀𝐌𝐀𝐍 ]══════════//
 
 const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
         if(time2 < "23:59:00"){
@@ -268,7 +268,7 @@ console.log(e)
                 });
             }
 
-//══════════[ Mess Dll ]══════════//
+//══════════[ 𝐌𝐄𝐒𝐒 Dll ]══════════//
 
 mess = {
 wait: 'In process...',
@@ -303,7 +303,7 @@ var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
 return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 
-//══════════[ BUTTON ]══════════//
+//══════════[ 𝐓𝐔𝐒𝐋𝐀𝐑 ]══════════//
 
 const sendButton = async (from, context, fortext, but, mek) => {
 buttonMessages = {
@@ -362,7 +362,7 @@ headerType: 6
 DogeXeonOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
 
-//══════════[ Fake ]══════════//
+//══════════[ 𝐒𝐀𝐇𝐓𝐄 ]══════════//
 
 const listmsg = (from, title, desc, list) => {
 let po = DogeXeonOP.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "𝗠𝗘𝗡𝗨","footerText": `${tanggal}`,"listType": "SINGLE_SELECT","sections": list}}, {})
