@@ -34,11 +34,11 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
 console.log(color('> GITHUB: KANNANSIR ','silver'))
-console.log(color('> WA NUMBER: 919633687665 ','silver'))
+console.log(color('> WA NUMBER: 447451220190 ','silver'))
 console.log(color('  Kriz Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/919633687665'))
+    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/447451220190'))
     console.log(color('[KRIZ BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[K R I Z]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Kriz Bot', 'white'))
@@ -86,10 +86,10 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
         pp_group = await DogeXeonOP.getProfilePicture(anu.jid)
       } catch (e) {
         pp_group =
-          "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
+          "https://🍁Zalios Bot🍁"
       }
             if (anu.action == "add" && mem.includes(DogeXeonOP.user.jid)) {
-        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am Doge Bot, ready to help you here ㋛︎", "conversation")
+        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am 🍁Zalios Bot🍁, ready to help you here ㋛︎", "conversation")
       }
       buffer = await getBuffer(pp_user)
       if (anu.action == 'add' && !mem.includes(DogeXeonOP.user.jid)) {
@@ -103,7 +103,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       anu_user = v.vname || v.notify || num.split('@')[0]
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-      teks = `   ⃟🎈    𝙃𝙞 _*@${num.split('@')[0]}*_ \n   ⃟🎈    𝘽𝙞𝙤 : _*${thu.status}*_ \n   ⃟🎈    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n   ⃟🎈    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🎈    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
+      teks = `   ⃟🎈    HG _*@${num.split('@')[0]}*_ \n   ⃟🎈    𝘽𝙞𝙤 : Ustan 🎈    𝙈𝙚𝙢𝙗𝙚𝙧 : 447451220190🎈    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🎈    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `КЯłZ SΞЯ`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
